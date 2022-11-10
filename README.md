@@ -1,6 +1,5 @@
 # 🎱Objetivo
-<p>O objetivo deste projeto foi criar um compilado com exercícios práticos extremamente eficázes para o aprendizado de alguns dos principais métodos se tratando de arrays. Sendo eles: filter, map e reduce.Utilizando os métodos <code>call</code> e <code>apply</code> para modificar o valor de <code>this</code>.<br>
-Nesta solução, criei objetos para armazenar as informações sobre cada pessoa, sendo elas: nome e idade. </p>
+<p>O objetivo deste projeto foi criar um compilado com exercícios práticos extremamente eficázes para o aprendizado de alguns dos principais métodos se tratando de arrays. Sendo eles: filter, map e reduce.</p>
 <h1>Compreendendo os exercícios:</h1>
 <b><li>Exercício método filter</b> → Filtrar e retornar todos os números pares de um array:</li>
 <p>Dada uma sequência de números dispostos em uma lista (array) <b>filtre</b> e retorne todos os números pares da mesma. Para realizar esse exercício utilizei o método <code>filter</code> que possui como característica principal criar um novo array com todos os elementos que passaram pelo teste de exigências impostos pela função, que neste caso, é ser número par.</p>
