@@ -30,7 +30,14 @@ Recebe os mesmos parâmetros que a <code>map</code> onde callback é a função 
 <li>initialValue: valor sobre o qual o retorno final irá atuar</li>
 </ul>
 
+
+
+
 <br></br>
+<br></br>
+
+
+
 
 # 🎱Objective
 <p>The goal of this project was to create a compilation with extremely effective practical exercises for learning some of the main methods when dealing with arrays. They are: filter, map and reduce.</p>
