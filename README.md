@@ -30,3 +30,37 @@ Recebe os mesmos parâmetros que a <code>map</code> onde callback é a função 
 <li>initialValue: valor sobre o qual o retorno final irá atuar</li>
 </ul>
 
+<br></br>
+
+# 🎱Objective
+<p>The goal of this project was to create a compilation with extremely effective practical exercises for learning some of the main methods when dealing with arrays. They are: filter, map and reduce.</p>
+<h1>Understanding the exercises:</h1>
+<b><li>Filter method exercise</b> → Filter and return all even numbers from an array:</li>
+<p>Given a sequence of numbers arranged in a list (array) <b>filter</b> and return all the even numbers of the same. To carry out this exercise, I used the <code>filter</code> method, which has as its main characteristic creating a new array with all the elements that passed the test of requirements imposed by the function, which in this case is to be an even number.</p >
+<b><li>Exercise map method</b> → Multiply any number in the array by 2:</li></b>
+<p>In this first map exercise we will solve it in a simpler and more direct way. In the second, however, we will do something more robust, using the <code>this</code> parameter of an object created by ourselves. </p>
+<b><li>Exercise map method (with this)</b> → Practice the number multiplication syntax using the <code>this</code> parameter of an object created by ourselves.</li></ b>
+<p>Solution in file name: <b>script.this.js</b>. It is worth mentioning that with this method the array is <b>not</b> modified. But yes, generated a new array.</p>
+<b><li>Filter method exercise</b> → Multiply any number in the array by 2:</li>
+<p>Filter and return all even numbers from a given array. It is worth noting that to perform this same exercise backwards (filter by odd number) just return as follows in the code: <code>return item % 2 !== 0;</code>.</p>
+<b><li>Exercise reduce method →</b> Add all the numbers in the given array.</li><br>
+<b><li>Exercise reduce method →</b> Create a function that receives a price list and a number representing the available balance. Calculate what the final balance will be after subtracting all prices from the submitted list.</li>
+<p>It is worth mentioning that this method will not execute a new array. It will run a function on all array elements returning a single value. </p>
+<h1>filter()</h1>
+<p>According to the documentation from <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">mdn web docs</a> the method <code>filter</code> creates a new array with all elements that passed the test implemented by the given function. It is as if the entire array were placed inside a filter and only passed those items that match a date requirement/condition.
+<h3> Syntax ⤵️</h3>
+<p><code>array.filter(callback, thisArg)</code><br></br>
+It takes the same parameters as <code>map</code> where callback is the function to be executed on each element. Which in the <code>filter</code> is normally a comparison.
+<h1>map()</h1>
+<p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">mdn</a> reveals that this method invokes the function <code>callback</code> passed as an argument for each array element and returns a new array as the result.</p>
+<h3>Syntax ⤵️</h3>
+<code>arr.map(callback[, thisArg])</code><br></br>
+<h1>reduce()</h1>
+<p>This method will not execute another array. It runs a function on all array elements returning a single value. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">mdn</a> explains the <code>reduce</code > executes a reducer function (provided by ourselves) for each array element, resulting in a single return value.</p>
+<h3>Syntax ⤵️</h3>
+<code>array.reduce(callbackFn, initialValue)</code><br></br>
+<ul>
+<li>callback: function to be executed from the accumulator;</li>
+<li>initialValue: value on which the final return will act</li>
+</ul>
+
